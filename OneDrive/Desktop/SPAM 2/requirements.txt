@@ -1,0 +1,77 @@
+# =====================================================================
+# REQUIREMENTS.TXT - PYTHON DEPENDENCIES
+#
+# Use these files to install all required packages
+# =====================================================================
+
+# ===========================
+# FOR GOOGLE COLAB
+# (Paste these pip install commands in first cell)
+# ===========================
+
+pandas>=1.3.0
+scikit-learn>=1.0.0
+numpy>=1.21.0
+scipy>=1.7.0
+nltk>=3.6.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+imbalanced-learn>=0.9.0
+joblib>=1.0.0
+
+# ===========================
+# FOR FLASK BACKEND (VS CODE)
+# pip install -r requirements.txt
+# ===========================
+
+flask>=2.0.0
+flask-cors>=3.0.10
+scikit-learn>=1.0.0
+pandas>=1.3.0
+numpy>=1.21.0
+nltk>=3.6.0
+gunicorn>=20.1.0  # For production deployment
+
+# ===========================
+# FOR REACT FRONTEND
+# npm install --save axios react-router-dom
+# ===========================
+
+# (No Python packages needed for React)
+# JavaScript packages:
+# - react (auto-installed with create-react-app)
+# - react-dom (auto-installed)
+# - axios (for API calls)
+
+# ===========================
+# OPTIONAL: FOR ADVANCED FEATURES
+# ===========================
+
+# For Explainability
+lime>=0.2.0
+shap>=0.41.0
+
+# For Deep Learning
+tensorflow>=2.8.0
+torch>=1.10.0
+transformers>=4.20.0
+
+# For Database
+pymongo>=4.0.0
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0
+
+# For Monitoring
+sentry-sdk>=1.5.0
+prometheus-client>=0.13.0
+
+# For Rate Limiting
+flask-limiter>=1.4
+
+# For Testing
+pytest>=6.2.0
+pytest-cov>=2.12.0
+
+# For API Documentation
+flasgger>=0.9.5
+flask-swagger-ui>=4.10.3
